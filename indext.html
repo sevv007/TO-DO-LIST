@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>TO-DO LIST</title>
+
+    <!-- bu css dosyasını başka bir sayfadan yazmamımı sağlıyor-->
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+<!-- container oluşturuyoeuz , to do list için-->
+<div id ="todo-container">
+<!-- to do list header yani başlığı-->
+    <div id="header">
+   <h1>To Do List</h1>
+    </div>
+ <!-- to do list input box yani giriş kutusu-->
+    
+ <div id="todo-form">
+
+    <input type="text"
+    class="input-item"
+    name="input-box"
+    id="input_box"
+    placeholder="Add task"
+    />
+
+    <!-- ekleme tuşunu ekliyoruz-->
+   <button id ="input-button" onclick="addTask()">Add</button>
+
+</div>
+
+
+    <!-- task list -->
+<h2>Task List</h2>
+<ul id="list-container"></ul>
+
+<hr/>
+    <!-- task list counter-->
+    <div class="counter-container">
+        <div id="task-counters">
+           Completed: <span id="completed-counter">0</span>
+           | Uncompleted: <span id="uncompleted-counter">0</span>
+        </div>
+     </div>
+</div>
+
+
+
+
+<!--bu diğer class sa java scriptimizi ayrıca yazmamız için gerekli kod 
+,içine js classının ismini yazmalısın bu formatta--> 
+<script src="script.js" defer></script>
+</body>
+</html>

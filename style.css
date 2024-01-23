@@ -1,0 +1,66 @@
+body{
+    background:rgb(16, 96, 121);
+    background: radial-gradient(circle, rgba(177, 56, 177, 0.028) 0%, rgb(139, 190, 192) 100%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+#todo-container{
+   background: rgb(43, 60, 66);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #8b03ca;
+    padding: 20px;
+    color: rgb(122, 206, 202);
+    border-radius: 15px;
+}
+#header{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    background-image: url(8ff136274326316b7c5bb805b2b173d0.gif);
+    border-radius: 11px;
+    color:#192f6b
+}
+#input_box{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+#input-button{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #25add6;
+}
+#input-button:hover{
+    background-color: #8f9ca0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+}
+li{
+    border: 1px solid rgb(15, 55, 187);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.completed {
+    text-decoration: line-through;
+    color: rgb(104, 2, 10);
+    border: 1px solid rgb(114, 1, 1);
+}
